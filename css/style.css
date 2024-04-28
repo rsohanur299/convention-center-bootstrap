@@ -1,0 +1,66 @@
+:root{
+    --primary: #FFFFFF;
+    --secondary: #0A0826;
+    --danger: #3F87F5;
+    --success: #6C6C6C;
+    --warning: #5243C2;
+    --info: #F496D1;
+}
+.bg-secondary{
+    background-color: var(--secondary);
+}
+.color-danger{
+    background-color: var(--danger);
+}
+.bg-primary{
+    background: var(--primary);
+}
+.btn-1{
+    background: var(--primary);
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+    color: var(--danger);
+    text-decoration: none;
+}
+
+.button{
+    background-color: var(--danger);
+    border: none;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.btn-1:hover{
+    background: var(--danger);
+}
+.text-color{
+    color: var(--primary);
+}
+.color{
+    color: var(--success);
+}
+
+/* body-section h5 p color set */
+.t-color{
+    color: var(--secondary);
+}
+.p-color{
+    color: var(--success);
+}
+
+.btn-2{
+    background: var(--info);
+    color: var(--danger);
+    text-decoration: none;
+}
+
+.btn-3{
+    background: var(--primary);
+    border: none;
+    color: var(--danger);
+    text-decoration: none;
+}
+.card-text{
+    color: var(--primary);
+}
